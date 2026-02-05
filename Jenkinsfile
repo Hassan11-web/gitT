@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master'
-                    credentialsId: 'github-credentials'
+                git branch: 'master',
+                    credentialsId: 'Hassan11-web/GitHub PAT',
                     url: 'https://github.com/Hassan11-web/gitT.git'
 
             }
