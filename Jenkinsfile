@@ -6,7 +6,8 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-credentials',
-                    url: 'https://github.com/imagineintegrated-stack/multi-lang-microservices.git'
+                    url: url: 'https://github.com/Hassan11-web/gitT.git'
+
             }
         }
 
